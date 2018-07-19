@@ -158,7 +158,7 @@ type BatchReport struct {
 	// Outputs: Report outputs.
 	Outputs []*BatchReportOutputs `json:"outputs,omitempty"`
 
-	// ReportId: The ID of the the report definition.
+	// ReportId: The ID of the report definition.
 	ReportId string `json:"reportId,omitempty"`
 
 	// TimeSpan: Period included in the report. For reports containing all

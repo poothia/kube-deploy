@@ -3292,7 +3292,7 @@ type Image struct {
 	// SelfLink: [Output Only] Server-defined URL for the resource.
 	SelfLink string `json:"selfLink,omitempty"`
 
-	// SourceDisk: URL of the The source disk used to create this image.
+	// SourceDisk: URL of the source disk used to create this image.
 	// This can be a full or valid partial URL. You must provide either this
 	// property or the rawDisk.source property but not both to create an
 	// image. For example, the following are valid values:
@@ -7244,7 +7244,7 @@ type Snapshot struct {
 	//   "UPLOADING"
 	Status string `json:"status,omitempty"`
 
-	// StorageBytes: [Output Only] A size of the the storage used by the
+	// StorageBytes: [Output Only] A size of the storage used by the
 	// snapshot. As snapshots share storage, this number is expected to
 	// change with snapshot creation/deletion.
 	StorageBytes int64 `json:"storageBytes,omitempty,string"`

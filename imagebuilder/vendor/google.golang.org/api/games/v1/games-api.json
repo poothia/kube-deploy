@@ -222,7 +222,7 @@
     },
     "newlyUnlocked": {
      "type": "boolean",
-     "description": "Whether the the current steps for the achievement has reached the number of steps required to unlock."
+     "description": "Whether the current steps for the achievement has reached the number of steps required to unlock."
     }
    }
   },
@@ -3360,7 +3360,7 @@
      "id": "games.applications.played",
      "path": "applications/played",
      "httpMethod": "POST",
-     "description": "Indicate that the the currently authenticated user is playing your application.",
+     "description": "Indicate that the currently authenticated user is playing your application.",
      "parameters": {
       "consistencyToken": {
        "type": "string",

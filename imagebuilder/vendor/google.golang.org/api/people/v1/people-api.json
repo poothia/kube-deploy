@@ -747,7 +747,7 @@
     },
     "formattedType": {
      "type": "string",
-     "description": "The read-only type of the phone number translated and formatted in the viewer's account locale or the the `Accept-Language` HTTP header locale."
+     "description": "The read-only type of the phone number translated and formatted in the viewer's account locale or the `Accept-Language` HTTP header locale."
     }
    }
   },

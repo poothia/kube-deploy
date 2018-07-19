@@ -195,7 +195,7 @@ func (max maxPrefetch) setOptions(o *pullOptions) {
 //
 // For performance reasons, the pubsub library may prefetch a pool of Messages
 // to be returned serially from Iterator.Next. MaxPrefetch is used to limit the
-// the size of this pool.
+// size of this pool.
 //
 // If num is less than 1, it will be treated as if it were 1.
 func MaxPrefetch(num int) PullOption {

@@ -7544,7 +7544,7 @@ type Instance struct {
 	// The instance's platform.
 	Platform *string `type:"string"`
 
-	// The The instance's private DNS name.
+	// The instance's private DNS name.
 	PrivateDns *string `type:"string"`
 
 	// The instance's private IP address.

@@ -142,7 +142,7 @@ func (vs ShapeValidations) GoCode(shape *Shape) string {
 }
 
 // Has returns true or false if the ShapeValidations already contains the
-// the reference and validation type.
+// reference and validation type.
 func (vs ShapeValidations) Has(ref *ShapeRef, typ ShapeValidationType) bool {
 	for _, v := range vs {
 		if v.Ref == ref && v.Type == typ {

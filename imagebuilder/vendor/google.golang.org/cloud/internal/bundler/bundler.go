@@ -77,7 +77,7 @@ type bundle struct {
 // want to create bundles of *Entry, you could pass &Entry{} for itemExample.
 //
 // handler is a function that will be called on each bundle. If itemExample is
-// of type T, the the argument to handler is of type []T.
+// of type T, the argument to handler is of type []T.
 func NewBundler(itemExample interface{}, handler func(interface{})) *Bundler {
 	b := &Bundler{
 		DelayThreshold:       DefaultDelayThreshold,

@@ -362,7 +362,7 @@
           }
         },
         "samplingLevel": {
-          "description": "The desired report\n[sample](https://support.google.com/analytics/answer/2637192) size.\nIf the the `samplingLevel` field is unspecified the `DEFAULT` sampling\nlevel is used. Every [ReportRequest](#ReportRequest) within a\n`batchGet` method must contain the same `samplingLevel` definition. See\n[developer guide](/analytics/devguides/reporting/core/v4/basics#sampling)\n for details.",
+          "description": "The desired report\n[sample](https://support.google.com/analytics/answer/2637192) size.\nIf the `samplingLevel` field is unspecified the `DEFAULT` sampling\nlevel is used. Every [ReportRequest](#ReportRequest) within a\n`batchGet` method must contain the same `samplingLevel` definition. See\n[developer guide](/analytics/devguides/reporting/core/v4/basics#sampling)\n for details.",
           "enum": [
             "SAMPLING_UNSPECIFIED",
             "DEFAULT",

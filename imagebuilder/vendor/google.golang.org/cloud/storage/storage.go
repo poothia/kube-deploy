@@ -602,7 +602,7 @@ func (o *ObjectHandle) NewWriter(ctx context.Context) *Writer {
 
 // parseKey converts the binary contents of a private key file
 // to an *rsa.PrivateKey. It detects whether the private key is in a
-// PEM container or not. If so, it extracts the the private key
+// PEM container or not. If so, it extracts the private key
 // from PEM container before conversion. It only supports PEM
 // containers with no passphrase.
 func parseKey(key []byte) (*rsa.PrivateKey, error) {

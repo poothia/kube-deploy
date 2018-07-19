@@ -1246,7 +1246,7 @@ type ReportRequest struct {
 	// report
 	// [sample](https://support.google.com/analytics/answer/2637192)
 	// size.
-	// If the the `samplingLevel` field is unspecified the `DEFAULT`
+	// If the `samplingLevel` field is unspecified the `DEFAULT`
 	// sampling
 	// level is used. Every [ReportRequest](#ReportRequest) within
 	// a

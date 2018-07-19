@@ -352,7 +352,7 @@ func (s *BinLogCoordinates) MarshalJSON() ([]byte, error) {
 // CloneContext: Database instance clone context.
 type CloneContext struct {
 	// BinLogCoordinates: Binary log coordinates, if specified, indentify
-	// the the position up to which the source instance should be cloned. If
+	// the position up to which the source instance should be cloned. If
 	// not specified, the source instance is cloned up to the most recent
 	// binary log coordintes.
 	BinLogCoordinates *BinLogCoordinates `json:"binLogCoordinates,omitempty"`

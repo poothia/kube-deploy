@@ -14,7 +14,7 @@
 
 /*
 Package pubsub provides an easy way to publish and receive Google Cloud Pub/Sub
-messages, hiding the the details of the underlying server RPCs.  Google Cloud
+messages, hiding the details of the underlying server RPCs.  Google Cloud
 Pub/Sub is a many-to-many, asynchronous messaging system that decouples senders
 and receivers.
 

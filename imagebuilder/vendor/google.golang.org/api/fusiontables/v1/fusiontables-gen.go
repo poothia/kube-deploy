@@ -568,7 +568,7 @@ type StyleFunction struct {
 	// "fusiontables#gradient" if the styling of the row is to be based on
 	// applying the gradient function on the column value; or
 	// "fusiontables#buckets" if the styling is to based on the bucket into
-	// which the the column value falls.
+	// which the column value falls.
 	Kind string `json:"kind,omitempty"`
 
 	// ForceSendFields is a list of field names (e.g. "Buckets") to

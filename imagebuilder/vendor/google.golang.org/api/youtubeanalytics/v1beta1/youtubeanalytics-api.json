@@ -132,7 +132,7 @@
     },
     "reportId": {
      "type": "string",
-     "description": "The ID of the the report definition."
+     "description": "The ID of the report definition."
     },
     "timeSpan": {
      "type": "object",

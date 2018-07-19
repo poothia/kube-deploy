@@ -439,7 +439,7 @@ type AchievementSetStepsAtLeastResponse struct {
 	// the fixed string games#achievementSetStepsAtLeastResponse.
 	Kind string `json:"kind,omitempty"`
 
-	// NewlyUnlocked: Whether the the current steps for the achievement has
+	// NewlyUnlocked: Whether the current steps for the achievement has
 	// reached the number of steps required to unlock.
 	NewlyUnlocked bool `json:"newlyUnlocked,omitempty"`
 
@@ -5493,7 +5493,7 @@ type ApplicationsPlayedCall struct {
 	ctx_       context.Context
 }
 
-// Played: Indicate that the the currently authenticated user is playing
+// Played: Indicate that the currently authenticated user is playing
 // your application.
 func (r *ApplicationsService) Played() *ApplicationsPlayedCall {
 	c := &ApplicationsPlayedCall{s: r.s, urlParams_: make(gensupport.URLParams)}
@@ -5552,7 +5552,7 @@ func (c *ApplicationsPlayedCall) Do(opts ...googleapi.CallOption) error {
 	}
 	return nil
 	// {
-	//   "description": "Indicate that the the currently authenticated user is playing your application.",
+	//   "description": "Indicate that the currently authenticated user is playing your application.",
 	//   "httpMethod": "POST",
 	//   "id": "games.applications.played",
 	//   "parameters": {

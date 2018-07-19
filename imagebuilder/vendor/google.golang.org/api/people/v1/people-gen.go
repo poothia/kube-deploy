@@ -1048,7 +1048,7 @@ type PhoneNumber struct {
 	CanonicalForm string `json:"canonicalForm,omitempty"`
 
 	// FormattedType: The read-only type of the phone number translated and
-	// formatted in the viewer's account locale or the the `Accept-Language`
+	// formatted in the viewer's account locale or the `Accept-Language`
 	// HTTP header locale.
 	FormattedType string `json:"formattedType,omitempty"`
 

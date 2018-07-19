@@ -27,7 +27,7 @@ import (
 // focus on using your data to acquire new insights for your business and customers.
 //
 // If you are a first-time user of Amazon Redshift, we recommend that you begin
-// by reading the The Amazon Redshift Getting Started Guide (http://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html)
+// by reading the Amazon Redshift Getting Started Guide (http://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html)
 //
 // If you are a database developer, the Amazon Redshift Database Developer
 // Guide (http://docs.aws.amazon.com/redshift/latest/dg/welcome.html) explains

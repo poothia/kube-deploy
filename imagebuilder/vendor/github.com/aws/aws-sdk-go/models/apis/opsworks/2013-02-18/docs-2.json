@@ -1306,7 +1306,7 @@
         "Instance$LastServiceErrorId": "<p>The ID of the last service error. For more information, call <a>DescribeServiceErrors</a>.</p>",
         "Instance$Os": "<p>The instance's operating system.</p>",
         "Instance$Platform": "<p>The instance's platform.</p>",
-        "Instance$PrivateDns": "<p>The The instance's private DNS name.</p>",
+        "Instance$PrivateDns": "<p>The instance's private DNS name.</p>",
         "Instance$PrivateIp": "<p>The instance's private IP address.</p>",
         "Instance$PublicDns": "<p>The instance public DNS name.</p>",
         "Instance$PublicIp": "<p>The instance public IP address.</p>",

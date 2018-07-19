@@ -2880,7 +2880,7 @@ type MoveDimensionRequest struct {
 	// (depending on the dimension) to make room for the moved
 	// dimensions.
 	// The source dimensions are removed from the grid, so the
-	// the data may end up in a different index than specified.
+	// data may end up in a different index than specified.
 	//
 	// For example, given `A1..A5` of `0, 1, 2, 3, 4` and wanting to
 	// move
